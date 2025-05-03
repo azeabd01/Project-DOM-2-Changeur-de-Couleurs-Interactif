@@ -1,0 +1,39 @@
+body {
+    
+    background-color: #DFD0B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #948979;
+    height: 60%;
+    width: 60%;
+}
+
+#color-box {
+    width: 40%;
+    height: 50%;
+    margin: 40px auto;
+    background-color: #393E46;
+    border: 2px solid #000;
+}
+
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+}
+
+#change-color-btn:hover {
+    background-color: #E9A319;
+}
